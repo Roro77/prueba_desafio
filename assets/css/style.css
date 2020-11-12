@@ -12,10 +12,17 @@ body * {
     font-family: 'Lato';
 }
 
-.jumbo {
-    margin-top: 7.5rem;
+header {
+    margin-top: 5.3rem;
 }
 
+header p{
+    display: inline-block;
+}
+
+.image-1{
+    border-radius: 5%;
+}
 
 
 #sobre-mi .content-header{
