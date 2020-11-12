@@ -13,7 +13,7 @@ body * {
 }
 
 header {
-    margin-top: 5.3rem;
+    margin-top: 5.0rem;
 }
 
 header p{
@@ -27,10 +27,10 @@ header p{
 
 #sobre-mi .content-header{
     font-size: 1.56rem;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
 }
 
-#sobre-mi hr{
+hr{
     background-color: black;
     height: 0.3rem;
 }
@@ -38,6 +38,23 @@ header p{
 #experiencia .exp-text {
     font-size: 1.5rem;
 }
+
+.relator:hover {
+    color: var(--lightblue);
+}
+
+.banco:hover {
+    color: var(--lightblue);
+}
+
+.tienda:hover{
+    color: var(--lightblue);
+}
+
+.comex:hover{
+    color: var(--lightblue);
+}
+
 
 
 
