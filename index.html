@@ -41,119 +41,189 @@
       <header class="inicio">
         <div class="container text center">
           <div class="row">
-            <div class="col-md-6 container">
+            <div class="col-md-5 container">
               <img src="assets/img/rodrigo_imagen.jpg" alt="rodrigo" class="img-fluid image-1">
             </div>
-            <div class="col-md-6 text-left py-5 my-5">
+            <div class="col-md-7 text-left py-5 my-5">
               <h2>YO SOY</h2>
               <hr>
-              <h1 class="font-weight-bold mb-4">RODRIGO PINEDA</h1>
-              <i class="fas fa-user-graduate mr-2"></i><p class="mr-2">Ingeniero Comercial</p>
-              <i class="fas fa-code mr-2"></i><p class="mr-2">Programador Junior</p>
-
-          </div>
-
+                <h1 class="font-weight-bold mb-3">RODRIGO PINEDA</h1>
+                <i class="fas fa-user-graduate mr-2"></i><p class="mr-2">Ingeniero Comercial</p>
+                <i class="fas fa-code mr-2"></i><p class="mr-2">Programador Junior</p>
+            </div>
         </div>
+      </div>  
       </header>
-
       
       <section id="sobre-mi" class="my-5 py-3 ">
         <div class="container px-5">
-        <p class="text-center content-header font-weight-bold">
-          Ingeniero Comercial, titulado en la Universidad de las Américas el año 2012, con más de 10 años de experiencia.
-        </p>
-
-        <p class="text-center content-header font-weight-bold">
-          Actualmente, me encuentro estudiando programación en Desafío Latam, para convertirme en Desarrollador Full Stack.
-        </p>
-        <hr class="w-25">
+          <p class="text-center content-header font-weight-bold">
+            Ingeniero Comercial, titulado en la Universidad de las Américas el año 2012, con más de 10 años de experiencia.</p>
+          <p class="text-center content-header font-weight-bold">
+            Actualmente, me encuentro estudiando programación en Desafío Latam, para convertirme en Desarrollador Full Stack.</p>
+          <hr class="w-25">
         <div class="row mt-5">
           <div class="col-sm-6">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est sunt consectetur animi error adipisci recusandae possimus, nisi ratione totam voluptatibus, dicta libero atque. Nesciunt deserunt laboriosam fugiat laudantium, et aut? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi error reprehenderit fuga aliquid repudiandae necessitatibus. Ut recusandae obcaecati, eaque cumque corporis, provident aliquam at dolore nulla sed impedit dignissimos laboriosam.</p>
           </div>
-
           <div class="col-sm-6">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At ducimus molestiae pariatur laboriosam a dolorum nulla illo excepturi recusandae, aliquam, eaque facere voluptatibus maxime quisquam corporis autem hic enim amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, minus dolore ipsum labore laboriosam neque sequi impedit, ullam consequatur incidunt sed maxime beatae voluptas mollitia, explicabo corporis eveniet quibusdam aliquam?</p>
           </div>
         </div>
       </div>
-      </section>
+    </section>
 
       <section id="experiencia" class="mt-5 py-5">
         <h2 class="display-4 text-center mb-5 font-weight-bold">Mi Experiencia</h2>
         <hr class="w-25">
         <div class="row mx-3 py-5">
             <div class="col-sm-3 text-center tienda">
-                <i class="fas fa-store fa-5x"></i>
+                <i class="fas fa-store fa-5x" data-toggle="modal" data-container="body" data-target="#tienda"></i>
                 <p class="font-weight-bold exp-text">Grandes Tiendas</p>
-                <p>2006 - 2010</p>
+                <p>2006 - 2008</p>
             </div>
             <div class="col-sm-3 text-center banco">
-                <i class="fab fas fa-credit-card fa-5x"></i>
+                <i class="fab fas fa-credit-card fa-5x" data-toggle="modal" data-container="body" data-target="#banco"></i></i>
                 <p class="font-weight-bold exp-text">Bancos</p>
-                <p>2010 - 2015</p>
+                <p>2008 - 2015</p>
             </div>
-
             <div class="col-sm-3 text-center comex">
-              <i class="fas fa-ship fa-5x" data-toggle="modal"  data-container="body" data-target="#comercio" data-placement="right"></i>
+              <i class="fas fa-ship fa-5x" data-toggle="modal" data-container="body" data-target="#comercio"></i>
               <p class="font-weight-bold exp-text">Comercio Exterior</p>
-              <p>2015 - 2019</p>
-              
+              <p>2015 - 2019</p>  
           </div>
-
           <div class="col-sm-3 text-center relator">
-            <i class="fas fa-chalkboard-teacher fa-5x"></i>
+            <i class="fas fa-chalkboard-teacher fa-5x" data-toggle="modal" data-container="body" data-target="#relator"></i></i>
             <p class="font-weight-bold exp-text">Relator</p>
-            <p>2020 -</p>
+            <p>2020 - Actualidad</p>
         </div>
         </div>
     </section>
 
+    <!--Modal Grandes Tiendas-->
+
+        <div class="modal fade" id="tienda" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                      <h4 class="modal-title font-weight-bold" id="exampleModalLabel">Experiencia en Grandes Tiendas</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+              </div>
+                <div class="modal-body">
+                  <img src="assets/img/retail.jpg" alt="Comercio" class="img-fluid my-3">
+                  <h5 class="font-weight-bold">Ejecutivo SAC Falabella Retail, 01/2007 a 05/2008, Santiago.
+                    </h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia placeat quis fugiat minima sequi nesciunt laboriosam, commodi illo dicta. Iusto reprehenderit sit sed, omnis eius vel enim aliquid laboriosam delectus!
+                    </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn bg-lightblue text-white" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>     
+          </div>
+        </div>
+
+
+  <!--Modal Bancos-->
+
+      <div class="modal fade" id="banco" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                    <h4 class="modal-title font-weight-bold" id="exampleModalLabel">Experiencia en Bancos</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+            </div>
+            <div class="modal-body">
+                <img src="assets/img/bancos.jpg" alt="Comercio" class="img-fluid my-3">
+
+                <h5 class="font-weight-bold">Analista Junior Banco Santander, 10/2010 a 08/2013 Santiago.
+                  </h5>
+                <p>Responsable de la carga y asignación de bases de datos asociada plataforma Outbound con sistema predictivo.
+                </p>
+                <p>Diseñador y gestor del sistema de reportería para la realización de informes de contabilidad y pagos de clientes morosos, reportando directamente a Gerencia de Cobranza.
+                </p>
+                <p>Responsable de la evaluación de KPI en la gestión de cobranza, optimizando tiempos de operación del call center.
+                </p>
+                <hr>
+                <h5 class="font-weight-bold">Ejecutivo de Cuentas Banco Santander, 08/2013 a 07/2015 Santiago.
+                </h5>
+                <p>Encargado de captar nuevos clientes para cuentas corrientes, consolidación de deudas, créditos hipotecarios, inversiones, depósitos a plazo, entre otros.  
+                </p>
+                <p>Responsable de evaluación y análisis de carpetas tributarias y formularios solicitados a clientes Pyme para posterior presentación a comité del Banco con el fin de otorgar cuentas corrientes y créditos comerciales para capital de trabajo y/o maquinaria de producción. 
+                </p>
+                <p>Responsable de refinanciar y entregar soluciones a clientes con más de 60 días de morosidad.
+                </p>
+              </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn bg-lightblue text-white" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>     
+    </div>
+</div>
+
     
 
+<!--Modal Comercio Internacional-->
 
     <div class="modal fade" id="comercio" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
           <div class="modal-content">
               <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Experiencia en Comercio Internacional</h5>
+                      <h4 class="modal-title font-weight-bold" id="exampleModalLabel">Experiencia en Comercio Internacional</h4>
                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                               <span aria-hidden="true">&times;</span>
                           </button>
               </div>
 
               <div class="modal-body">
-                  <img src="assets/img/card-1.jpg" alt="Comercio" class="img-fluid my-3">
-
-                  <h4 class="font-weight-bold">Coordinador de Capacitaciones - Academia Negocios Latam (08/2015 – 01/2017, Santiago).
-                    .</h4>
-              
+                  <img src="assets/img/comercio_internacional.jpg" alt="Comercio" class="img-fluid my-3">
+                  <h5 class="font-weight-bold">Coordinador de Capacitaciones - ANL 08/2015 a 01/2017, Santiago.
+                    </h5>
                   <p>Responsable de la gestión comercial y organización de capacitaciones a lo largo de todo Chile en materia de emprendimiento, importaciones, fondos púbicos concursables entre otros.
                   </p>
-              
-                  <p>Gestor de distintas alianzas con Universidades y CFT para la realización de capacitaciones en todo Chile, destacando acuerdos con Universidad Santo Tomás, AIEP y Universidad de las Américas.
-                  </p>
-
-                  <p>Responsable de crear anuncios en plataformas de Social Media para la obtención de lead y clientes potenciales.
-                  </p>
-
                   <hr>
-
-                  <h4 class="font-weight-bold">Jefe comercial - Chile Importaciones Spa (02/2017 – 12/2019, Santiago).</h4>
-              
+                  <h5 class="font-weight-bold">Jefe comercial - Chile Importaciones Spa 02/2017 a 12/2019, Santiago.</h5>
                   <p>Responsable del diseño, organización de distintos procesos comerciales asociados a ventas y convenios, destacando la organización de viajes a ferias de negocios en China (Canton Fair - Yiwu), asesorías en Comex y Capacitaciones (Importaciones, Exportaciones, Marketing Digital).
                   </p>
-              
-                  <p>Encargado de desarrollar estrategias de Marketing y Social Media para la obtención de lead y clientes potenciales.
-                  </p>
               </div>
-          
               <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn bg-lightblue text-white" data-dismiss="modal">Cerrar</button>
               </div>
           </div>     
       </div>
   </div>
+
+  <!--Modal Relator-->
+
+  <div class="modal fade" id="relator" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                    <h4 class="modal-title font-weight-bold" id="exampleModalLabel">Experiencia Relatorías</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+            </div>
+
+            <div class="modal-body">
+                <img src="assets/img/fosis.jpg" alt="Comercio" class="img-fluid my-3">
+                <h5 class="font-weight-bold">Relator FOSIS - G2000 10/2020, Santiago.
+                  </h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi atque vel, ducimus dolorum sunt ipsa at harum velit nemo ad fuga perspiciatis voluptas quisquam, consequuntur magni laboriosam earum sit numquam!
+                </p>
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn bg-lightblue text-white" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>     
+    </div>
+</div>
 
 
 

@@ -41,18 +41,22 @@ hr{
 
 .relator:hover {
     color: var(--lightblue);
+    cursor: pointer;
 }
 
 .banco:hover {
     color: var(--lightblue);
+    cursor: pointer;
 }
 
 .tienda:hover{
     color: var(--lightblue);
+    cursor: pointer;
 }
 
 .comex:hover{
     color: var(--lightblue);
+    cursor: pointer;
 }
 
 
