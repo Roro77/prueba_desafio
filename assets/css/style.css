@@ -2,6 +2,7 @@
 
 :root {
     --lightblue: #1490C6;
+    --white: #fff;
 }
 
 .bg-lightblue {
@@ -35,10 +36,6 @@ hr{
     height: 0.3rem;
 }
 
-#experiencia .exp-text {
-    font-size: 1.5rem;
-}
-
 .relator:hover {
     color: var(--lightblue);
     cursor: pointer;
@@ -57,6 +54,10 @@ hr{
 .comex:hover{
     color: var(--lightblue);
     cursor: pointer;
+}
+
+#trabajos hr{
+    background-color: var(--white);
 }
 
 
